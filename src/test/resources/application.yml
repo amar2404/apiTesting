@@ -1,0 +1,5 @@
+uri:
+   host: "https://community-open-weather-map.p.rapidapi.com"
+path:
+   weather: "/weather"
+
