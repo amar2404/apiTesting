@@ -29,12 +29,6 @@ public class MySteps {
         // Write code here that turns the phrase above into concrete actions
 
         requestbuilder.getWeather();
-      /*  try{
-            System.out.println("Hello World");}
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }*/
 
         try {
             weatherResponse=objectMapper.readValue(requestbuilder.getWeather().getBody().asInputStream(), ObjectNode.class);
