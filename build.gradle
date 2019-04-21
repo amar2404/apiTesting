@@ -19,7 +19,10 @@ configurations {
 
 
 dependencies {
-
+    compileOnly "org.projectlombok:lombok:1.18.2"
+    testCompileOnly "org.projectlombok:lombok:1.18.2"
+    annotationProcessor "org.projectlombok:lombok:1.18.2"
+    testAnnotationProcessor "org.projectlombok:lombok:1.18.2"
     compile 'io.rest-assured:json-path:3.3.0'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.8'
     compile group: 'io.cucumber', name: 'cucumber-java', version: '4.2.0'
